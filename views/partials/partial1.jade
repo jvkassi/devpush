@@ -1,0 +1,9 @@
+p This is the partial for view 2 {{file}}.
+//- input(type ="file", ng-model="file",  ng-model-instant , id="fileToUpload", onchange='angular.element(this).scope().upload(this)')
+{{file}}
+form#form(  enctype="multipart/form-data",method="post" , ng-submit="submit(file)")
+	input#file(type="file", name="file", upload)
+	input(type="text",   name="asdf")
+	input(type="submit", value="asdf")
+	//- input(onclick, value="asdf")
+//- input(type="button", value="click", ng-click="upload(this)" )

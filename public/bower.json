@@ -1,0 +1,26 @@
+{
+  "name": "express_devpush",
+  "version": "0.0.1",
+  "authors": [
+    "mib4fun <jeanvincent45@gmail.com>"
+  ],
+  "description": "My web app",
+  "main": "app.js",
+  "keywords": [
+    "lol"
+  ],
+  "license": "MIT",
+  "homepage": "app.js",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.2",
+    "angular-ui-router": "~0.2.0"
+  }
+}
